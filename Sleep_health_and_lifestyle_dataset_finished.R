@@ -69,3 +69,8 @@ ggplot(data = average) + geom_col(mapping = aes(x = QualityofSleep, y = Occupati
 # women have higher sleep quality
 
 ggplot(data = sleep) + geom_smooth(mapping = aes(x = Age, y = QualityofSleep,color = Gender))
+
+# conclusion
+# Adequate sleep duration affects sleep quality
+# sufficient physical activity can reduce stress
+# good quality sleep and sufficient activity can suppress stress and stabilize heart rate
